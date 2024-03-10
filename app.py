@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain.prompts import PromptTemplate
-from langchain.llms import CTransformers
+from langchain.llms import CTransformers #this allowing us to call the open source models downloaded from the huggingface 
 
 ## Function To get response from LLAma 2 model
 
